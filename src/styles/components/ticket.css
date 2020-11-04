@@ -1,0 +1,79 @@
+#ticket {
+    background-color: #196376;
+    height: auto;
+    position: relative;
+    top: 0;
+    right: 0;
+    padding: 2%;
+    color: #fff;
+}
+
+#ticket header #identification .identUser {
+    color: #87C336;
+}
+
+#ticket header #itensOption .itensOption p {
+    text-align: right;
+}
+
+#ticket #content {
+    position: relative;
+    border-top: 3px solid #4d4d4d;
+    height: 460px;
+    overflow-y: auto;
+    background-color: #e8f0f2;
+    z-index: 1;
+}
+
+#ticket #content #lineProduct {
+    color: #000;
+    margin: 4% auto;
+    width: 87%;
+    justify-content: space-between;
+}
+
+#ticket #content #lineProduct #valueProduct {
+    justify-content: space-between;
+}
+
+#ticket #content #lineProduct #describeProduct {
+    font-size: 1.1rem;
+}
+
+#ticket footer #totalSale {
+    background-color: #4D4D4D;
+}
+
+#ticket footer #totalSale p {
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+#ticket footer #totalSale span {
+    font-weight: bolder;
+    color: #fff;
+    font-size: 13px;
+}
+
+#ticket footer #totalSale .totalText {
+    font-size: 1.2rem;
+}
+
+#ticket footer #totalSale .totalSale {
+    font-size: 1.1rem
+}
+
+#ticket footer #totalSale .realText {
+    font-size: 1.4rem
+}
+
+#ticket footer .title-sell {
+    font-weight: bolder;
+    font-size: 16px;
+    text-align: end;
+    line-height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 20%;
+}

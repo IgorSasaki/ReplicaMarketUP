@@ -1,0 +1,96 @@
+#sellPage {
+    background-color: #fff;
+    color: #000;
+    margin: 1% auto;
+    position: relative;
+}
+
+#sellPage #amountItem {
+    background-color: #95b7c0;
+    padding: 1%;
+}
+
+#sellPage #amountItem .quantityItem {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 1.7rem;
+    margin: 5%;
+}
+
+#sellPage #filterProduct {
+    margin: 2%;
+    background-color: #75A1AD;
+}
+
+#sellPage #filterProduct .addItem, #sellPage #filterProduct .removeItem {
+    background: none;
+    color: inherit;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+#sellPage #filterProduct #formFilter {
+    margin: 2%;
+    align-items: center;
+}
+
+#sellPage #filterProduct #formFilter .input-group-text {
+    border: none;
+    background-color: inherit;
+}
+
+#sellPage #filterProduct #formFilter input {
+    border: none;
+    background-color: inherit;
+    color: #fff;
+}
+
+#sellPage #filterProduct #formFilter input::placeholder {
+    color: #fff;
+    opacity: 0.8;
+    font-weight: bolder;
+}
+
+#sellPage #categoryProduct, #sellPage #itemProduct {
+    margin: 2%;
+}
+
+#sellPage #categoryProduct p, #sellPage #itemProduct p {
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+}
+
+#sellPage #categoryProduct #gridCategory, #sellPage #itemProduct #gridProduct {
+    margin: 2% auto;
+}
+
+#sellPage #categoryProduct #gridCategory button, #sellPage #itemProduct #gridProduct button {
+    background-color: #9a9a9a;
+    padding: 6%;
+    color: #fff;    
+    text-align: center;
+    background: none;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+#sellPage #categoryProduct #gridCategory .col, #sellPage #itemProduct #gridProduct .col{
+    margin-right: 0.5%;
+    margin-top: 0;
+}
+
+.haveProduct {
+    background-color: #87c336;
+}
+
+#sellPage #categoryProduct .categoryProduct, #sellPage #itemProduct .productItem {
+    background-color: #9a9a9a;
+    margin: 1% auto;
+    color: #fff;    
+    text-align: center;
+}

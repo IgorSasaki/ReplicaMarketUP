@@ -1,0 +1,80 @@
+#landing-page {
+    background-color: #fff;
+    color: #000;
+    margin: 1% auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+#landing-page div #content {
+    text-align: center;
+    margin-top: 5%;
+}
+
+#title-market {
+    font-weight: bolder;
+    line-height: 100%;
+    color: #7b8a90;
+    font-size: 42px;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+}
+
+#landing-page div #content #formLogin {
+    margin: 2% auto;
+    width: 70%;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+#landing-page div #content #formLogin label {
+    font-size: 12px;
+}
+
+#landing-page div #content #formLogin input {
+    border: 1px solid #7b8a90;
+}
+
+#landing-page div #content #formLogin input[type="password"] {
+    width: 50%;
+}
+
+#landing-page div #content #formLogin .btnLogin {
+    width: 100%;
+    height: 80px;
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    background-color: #87c336;
+    margin-top: 3%;
+    vertical-align: middle;
+    padding: 5%;
+    text-decoration: none;
+    border: none;
+}
+
+#landing-page div #content footer {
+    font-size: 13px;
+    opacity: 0.9;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#landing-page div #content footer .btnSync {
+    color: #005AFF;
+    background: none;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    margin-top: 2rem;
+}
+
+#landing-page div #content footer .btnSync p {
+    font-weight: bolder;
+    margin-top: 0.4rem;
+}
+
+#landing-page div #content footer p {
+    margin-bottom: 0;
+}
